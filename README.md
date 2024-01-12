@@ -1,12 +1,10 @@
 # Аdversarial attack
-
+The implementation of Targeted fast gradient sign method (T-FGSM).
 ## Dataset
-MNIST: Рукописные цифры
+MNIST: handwritten digits
 
-## Описание метода
+## Method description
 
-Аdversarial attack заключается в модификации исходного изображения таким образом, что изменения практически не заметны человеческому взгляду. При отправление полученного изображения в классификатор ошибочно классифицируется, когда исходное изображение классифицируется правильно.
+An adversarial attack involves modifying the original image in such a way that the changes are nearly imperceptible to the human eye. The classifier mistakenly classifies the image, while the original image is classified correctly.
 
-В данном случае был использован Targeted fast gradient sign method (T-FGSM).
-
-Здесь приведен пример, когда изменение картинок приводит к тому, что они ошибочно начинают классифицироваться как восьмерки.
+Here's an example where altering the images leads to them being mistakenly classified as eights.
